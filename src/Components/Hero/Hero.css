@@ -1,0 +1,53 @@
+.Hero {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+}
+
+#strikethrough {
+    text-decoration: line-through;
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    padding-bottom: 32px;
+}
+
+.Socials {
+    display: flex;
+    flex-direction: row;
+    width: 128px;
+    justify-content: space-between;
+    height: 20px;
+    padding-bottom: 32px;
+    opacity: 0.6;
+}
+
+.Bio {
+    padding-bottom: 32px;
+}
+
+.Socials a img {
+    height: 20px;
+}
+
+/* mobile portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .Hero {
+        padding: 32px 0px;
+        width: 100%;
+    }
+
+    .Bio {
+        width: 100%;
+    }
+
+    .Title, .Socials .Bio {
+        padding-bottom:24px;
+    }
+    
+}

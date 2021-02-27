@@ -1,0 +1,95 @@
+.TestimonialContainer {
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.Testimonial {
+    padding: 24px 32px;
+    margin-top: -96px;
+}
+
+.TestimonialPost {
+    margin-right: 32px;
+    width: 400px;
+    padding: 24px 32px;
+    border-radius: 8px;
+}
+
+.TestimonialPost .Author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.TestimonialPost #twitter {
+    height: 18px;
+    width: auto;
+}
+
+#first p, #first .Author h2, #first .Author #twitter {
+    color: #E0A685;
+    fill: #E0A685;
+}
+
+#twitter {
+    fill: yellow;
+}
+
+#second p, #second .Author h2, #second #twitter {
+    color: #A8CDA2;
+}
+
+#first {
+    background-color: #150B05;
+}
+
+#second {
+    background-color: #0C0E0B;
+}
+
+/* mobile portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+
+    .TestimonialContainer {
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .Testimonial {
+        padding: 32px 0px;
+        margin-top: -64px;
+    }
+
+    .TestimonialPost {
+        margin-top: 24px;
+        margin-right: 0px;
+        width: auto;
+        padding: 16px 24px;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+        
+    .Testimonial {
+        padding: 32px 24px;
+        margin-top: -64px;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+        
+    .Testimonial {
+        padding: 32px 24px;
+        margin-top: -64px;
+    }
+
+    .TestimonialContainer {
+        max-width: 500px;
+    }
+
+}
