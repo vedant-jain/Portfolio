@@ -1,4 +1,5 @@
 .Home {
+    animation: 3s ease-in 1s 2 reverse both paused slide-in;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;

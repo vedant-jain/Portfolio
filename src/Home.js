@@ -20,9 +20,9 @@ class Home extends Component {
                 <span id="time">GO:OD AM</span>
                 <p>See what I’m doing <Link style={{padding: 0}} to="/now">now</Link></p>
                 <span id="time">12:08 AM</span>
-                <p>I also have a <Link style={{padding: 0}} to="/blog">blog</Link>, but I'm pretty new to this :P</p>
-                <p>feel free to hit me up at <a href="mailto://hello@vedantja.in">hello@vedantja.in</a></p>
-                <p>I also have some old case studies on <a href="mailto://medium.com/@VedantJ">medium</a></p>
+                {/* <p>I also have a <Link style={{padding: 0}} to="/blog">blog</Link>, but I'm pretty new to this :P</p> */}
+                <p>I also have some case studies on <a href="mailto://medium.com/@VedantJ">medium</a></p>
+                <p>get in touch –  <a href="mailto://hello@vedantja.in">hello@vedantja.in</a> or <a href="https://www.twitter.com/vdntjn">twitter</a></p>
             </div>
         )
     }
