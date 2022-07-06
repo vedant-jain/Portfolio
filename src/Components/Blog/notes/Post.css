@@ -1,0 +1,31 @@
+.post_container {
+    background-color: #fff;
+    width: 30rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 1.25rem 0.5rem;
+    gap: 2rem;
+}
+
+.post_container p, .post_container h3, .post_container a, .post_container h1, .post_container h2 {
+    color: #000;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.post_container h3 {
+    font-size: 1.5rem;
+}
+
+#post_caption {
+    color: #898A8E;
+    font-size: 0.75rem;
+    font-weight: 600;
+}

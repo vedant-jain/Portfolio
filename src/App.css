@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+    background-color: #fff;
+    height: 100%;
+    justify-content: center;
+    padding: 48px 0px 48px 0px;
+    display: flex;
+}
+
+* {
+    font-family: -apple-system, 'Inter', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p, h2, h1, h3, li {
+    font-weight: 400;
+    color: #000;
+    line-height: 1.5rem;;
+    font-size: 1rem;
+    background-color: #E9E9EB;
+    border-radius: 1.5rem;
+    border-bottom-left-radius: 0.25rem;
+    padding: 0.6rem 1rem;
+    margin: 0;
+    width: fit-content;
+}
+
+#time {
+    color: #898A8E;
+    margin: 2rem;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: block;
+}
+
+#emoji {
+    font-size: 1.2rem;
+}
+
+/* links */
+
+a {
+    text-decoration: underline #d5d5d5;
+    text-underline-offset: 4px;
+    font-weight: 400;
+}
+
+a:visited {
+    text-decoration: underline #d5d5d5;
+}
+
+/* use this for secondary text colour */
+
+#secondary {
+    color:#808080;
+}
+
+.Home, .Now {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 0.5rem;
+}
+
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        padding: 24px;
+    }
+
+    .Home, .Now {
+        max-width: 100%;
+    }
+
+}

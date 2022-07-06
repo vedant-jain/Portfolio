@@ -1,0 +1,10 @@
+.Now a {
+    text-decoration: underline #d5d5d5;
+    text-underline-offset: 4px;
+    font-weight: 400;
+    color: #000;
+}
+
+.Now a:visited {
+    text-decoration: underline #d5d5d5;
+}
